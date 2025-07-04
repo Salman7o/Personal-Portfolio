@@ -164,6 +164,8 @@ Preferred communication style: Simple, everyday language.
 - Added clickable LinkedIn link in About section personal information
 - Simplified services section design by removing over-designed elements
 - Removed projects section completely and updated navigation accordingly
+- Added professional cyberpunk-style profile image with glowing border effects
+- Restructured About section layout to feature profile image prominently
 
 ## Changelog
 

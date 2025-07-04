@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
+import profileImage from "@assets/ChatGPT Image Jul 4, 2025, 07_38_38 PM_1751640273023.png";
 
 export default function AboutSection() {
   const { ref, isIntersecting } = useIntersectionObserver();
@@ -35,7 +36,25 @@ export default function AboutSection() {
           <div className="w-20 h-1 portfolio-accent-bg mx-auto"></div>
         </div>
 
-        <div ref={ref} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div ref={ref} className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+          {/* Profile Image */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={isIntersecting ? { opacity: 1, scale: 1 } : {}}
+            transition={{ duration: 0.8 }}
+            className="flex justify-center lg:justify-start"
+          >
+            <div className="relative">
+              <img
+                src={profileImage}
+                alt="Salman Hamzo - Professional Portrait"
+                className="w-80 h-80 object-cover rounded-2xl shadow-2xl border-4 border-red-500/30 terminal-glow"
+              />
+              <div className="absolute -inset-1 bg-gradient-to-r from-red-500/20 via-yellow-500/20 to-green-500/20 rounded-2xl blur opacity-50"></div>
+            </div>
+          </motion.div>
+
+          {/* Tech Toolbox */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={isIntersecting ? { opacity: 1, y: 0 } : {}}
