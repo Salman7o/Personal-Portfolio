@@ -75,18 +75,18 @@ export default function ContactSection() {
   ];
 
   const socialLinks = [
-    { icon: <Linkedin size={20} />, href: "#", label: "LinkedIn" },
-    { icon: <Github size={20} />, href: "#", label: "GitHub" },
-    { icon: <Twitter size={20} />, href: "#", label: "Twitter" },
+    { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/salman-h-32101b216", label: "LinkedIn" },
+    { icon: <Github size={20} />, href: "https://github.com/salmanhamzo", label: "GitHub" },
+    { icon: <Twitter size={20} />, href: "https://twitter.com/salmanhamzo", label: "Twitter" },
   ];
 
   return (
     <section id="contact" className="py-20 portfolio-bg-alt">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 portfolio-text">Get In Touch</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 portfolio-text code-text">Get In Touch</h2>
           <div className="w-20 h-1 portfolio-accent-bg mx-auto mb-6"></div>
-          <h3 className="text-xl font-semibold portfolio-text">TAKE A COFFEE & CHAT WITH ME</h3>
+          <h3 className="text-xl font-semibold portfolio-text code-text">CONNECT AND COLLABORATE</h3>
         </div>
 
         <div ref={ref} className="grid grid-cols-1 lg:grid-cols-2 gap-12">
