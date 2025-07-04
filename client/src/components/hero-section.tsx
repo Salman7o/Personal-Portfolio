@@ -12,12 +12,25 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center hero-gradient relative overflow-hidden">
-      {/* Animated background particles */}
+      {/* CS-themed animated background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-cyan-400/30 rounded-full animate-pulse"></div>
-        <div className="absolute top-1/3 right-1/3 w-6 h-6 bg-blue-400/20 rounded-full animate-pulse delay-1000"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-3 h-3 bg-purple-400/40 rounded-full animate-pulse delay-500"></div>
-        <div className="absolute bottom-1/3 left-1/3 w-5 h-5 bg-cyan-300/25 rounded-full animate-pulse delay-1500"></div>
+        {/* Binary rain elements */}
+        <div className="absolute top-0 left-10 binary-rain" style={{animationDelay: '0s'}}>01001001</div>
+        <div className="absolute top-0 left-32 binary-rain" style={{animationDelay: '2s'}}>11001010</div>
+        <div className="absolute top-0 right-20 binary-rain" style={{animationDelay: '4s'}}>01010101</div>
+        <div className="absolute top-0 right-40 binary-rain" style={{animationDelay: '6s'}}>10110010</div>
+        
+        {/* Glowing particles */}
+        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-red-500/40 rounded-full animate-pulse glow-effect"></div>
+        <div className="absolute top-1/3 right-1/3 w-6 h-6 bg-green-400/30 rounded-full animate-pulse delay-1000 glow-effect"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-3 h-3 bg-yellow-400/35 rounded-full animate-pulse delay-500 glow-effect"></div>
+        <div className="absolute bottom-1/3 left-1/3 w-5 h-5 bg-red-400/40 rounded-full animate-pulse delay-1500 glow-effect"></div>
+        <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-orange-400/45 rounded-full animate-pulse delay-750 glow-effect"></div>
+        
+        {/* Code symbols */}
+        <div className="absolute top-20 left-20 text-green-400/20 text-2xl code-text">{'</>'}‌</div>
+        <div className="absolute bottom-20 right-20 text-red-400/20 text-2xl code-text">{'{}'}‌</div>
+        <div className="absolute top-40 right-32 text-yellow-400/20 text-xl code-text">[]</div>
       </div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -74,7 +87,7 @@ export default function HeroSection() {
               <Button 
                 variant="outline"
                 onClick={() => handleNavClick("#about")}
-                className="border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-white px-8 py-3 rounded-lg font-medium transform hover:scale-105 transition-all duration-300 hover:shadow-lg"
+                className="terminal-glow text-red-400 hover:bg-red-400 hover:text-black px-8 py-3 rounded-lg font-medium transform hover:scale-105 transition-all duration-300 code-text"
               >
                 View My Work
               </Button>

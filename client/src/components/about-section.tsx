@@ -6,14 +6,14 @@ export default function AboutSection() {
   const { ref, isIntersecting } = useIntersectionObserver();
 
   const toolboxItems = [
-    { name: "Swift", icon: "🍎", color: "text-orange-400" },
-    { name: "SwiftUI", icon: "📱", color: "text-blue-400" },
-    { name: "React.js", icon: "⚛️", color: "text-blue-400" },
+    { name: "Swift", icon: "🍎", color: "text-red-400" },
+    { name: "SwiftUI", icon: "📱", color: "text-yellow-400" },
+    { name: "React.js", icon: "⚛️", color: "text-red-500" },
     { name: "JavaScript", icon: "🟨", color: "text-yellow-400" },
     { name: "Java", icon: "☕", color: "text-red-400" },
     { name: "Python", icon: "🐍", color: "text-green-400" },
-    { name: "HTML & CSS", icon: "🌐", color: "text-purple-400" },
-    { name: "C Language", icon: "🔧", color: "text-blue-500" },
+    { name: "HTML & CSS", icon: "🌐", color: "text-orange-400" },
+    { name: "C Language", icon: "🔧", color: "text-red-500" },
   ];
 
   const personalInfo = [
@@ -50,10 +50,10 @@ export default function AboutSection() {
                   animate={isIntersecting ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  <Card className="portfolio-bg-alt border-slate-600 card-hover">
+                  <Card className="terminal-glow border-red-500/30 card-hover cyber-border bg-black/50">
                     <CardContent className="p-4 text-center">
                       <div className={`text-3xl mb-2 ${tool.color}`}>{tool.icon}</div>
-                      <p className="text-sm portfolio-text">{tool.name}</p>
+                      <p className="text-sm portfolio-text font-medium code-text">{tool.name}</p>
                     </CardContent>
                   </Card>
                 </motion.div>

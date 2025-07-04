@@ -65,10 +65,10 @@ export default function EducationSection() {
                   animate={isIntersecting ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  <Card className="portfolio-bg-alt border-slate-600 card-hover">
+                  <Card className="glass-effect border-slate-600 card-hover glow-effect">
                     <CardContent className="p-6">
                       <h4 className="text-lg font-semibold mb-2 portfolio-text">{edu.title}</h4>
-                      <p className="portfolio-accent mb-2">{edu.institution} / {edu.period}</p>
+                      <p className="portfolio-accent mb-2 font-medium">{edu.institution} / {edu.period}</p>
                       <p className="portfolio-text-muted text-sm leading-relaxed">{edu.description}</p>
                     </CardContent>
                   </Card>
@@ -92,10 +92,10 @@ export default function EducationSection() {
                   animate={isIntersecting ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: 0.2 + index * 0.1 }}
                 >
-                  <Card className="portfolio-bg-alt border-slate-600 card-hover">
+                  <Card className="glass-effect border-slate-600 card-hover glow-effect">
                     <CardContent className="p-6">
                       <h4 className="text-lg font-semibold mb-2 portfolio-text">{exp.title}</h4>
-                      <p className="portfolio-accent mb-2">{exp.company} / {exp.period}</p>
+                      <p className="portfolio-accent mb-2 font-medium">{exp.company} / {exp.period}</p>
                       <p className="portfolio-text-muted text-sm leading-relaxed">{exp.description}</p>
                     </CardContent>
                   </Card>

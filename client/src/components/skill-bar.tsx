@@ -26,13 +26,13 @@ export default function SkillBar({ name, percentage, color, icon, isVisible }: S
       <div className="flex justify-between items-center mb-2">
         <div className="flex items-center">
           <span className="text-xl mr-3">{icon}</span>
-          <span className="font-semibold portfolio-text">{name}</span>
+          <span className="font-semibold portfolio-text code-text">{name}</span>
         </div>
-        <span className="portfolio-accent font-semibold">{percentage}%</span>
+        <span className="portfolio-accent font-semibold code-text">{percentage}%</span>
       </div>
-      <div className="w-full bg-slate-700 rounded-full h-2">
+      <div className="w-full bg-black/70 rounded-full h-3 border border-red-500/30">
         <motion.div
-          className={`progress-bar ${color} h-2 rounded-full`}
+          className={`progress-bar ${color} h-3 rounded-full skill-glow terminal-glow`}
           initial={{ width: 0 }}
           animate={{ width: `${animatedPercentage}%` }}
           transition={{ duration: 2, ease: "easeInOut" }}
