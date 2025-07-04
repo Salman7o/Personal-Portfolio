@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import TypingAnimation from "@/components/typing-animation";
 import { Button } from "@/components/ui/button";
-import profileImage from "@assets/ChatGPT Image Jul 4, 2025, 07_38_38 PM_1751640273023.png";
+import profileImage from "@assets/ChatGPT Image Jul 4, 2025, 07_38_38 PM_1751641930188.jpeg";
 
 export default function HeroSection() {
   const handleNavClick = (href: string) => {
@@ -68,9 +68,9 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              Dynamic Junior Software Engineer in my third year of Computer Science at SZABIST University. 
-              I have completed a rigorous iOS Development internship, gaining hands-on experience with 
-              cutting-edge tools and high-quality mobile applications.
+              Crafting digital experiences through code. Transforming innovative ideas into powerful 
+              applications with clean architecture and modern technologies. Ready to bring your next 
+              project to life with precision and creativity.
             </motion.p>
             
             <motion.div 

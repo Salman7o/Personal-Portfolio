@@ -168,6 +168,8 @@ Preferred communication style: Simple, everyday language.
 - Moved profile image from About section to hero section on homepage
 - Removed "View My Work" button from hero section for cleaner design
 - Restored About section to 2-column layout without profile image
+- Updated homepage intro text to be unique and different from About section
+- Replaced profile image with new JPEG version on homepage
 
 ## Changelog
 
