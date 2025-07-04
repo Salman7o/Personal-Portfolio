@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import TypingAnimation from "@/components/typing-animation";
 import { Button } from "@/components/ui/button";
+import profileImage from "@assets/ChatGPT Image Jul 4, 2025, 07_38_38 PM_1751640273023.png";
 
 export default function HeroSection() {
   const handleNavClick = (href: string) => {
@@ -73,7 +74,7 @@ export default function HeroSection() {
             </motion.p>
             
             <motion.div 
-              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+              className="flex justify-center lg:justify-start"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
@@ -83,13 +84,6 @@ export default function HeroSection() {
                 className="portfolio-accent-bg hover:portfolio-accent-hover text-white px-8 py-3 rounded-lg font-medium transform hover:scale-105 transition-all duration-300 hover:shadow-lg"
               >
                 Let's Connect
-              </Button>
-              <Button 
-                variant="outline"
-                onClick={() => handleNavClick("#about")}
-                className="terminal-glow text-red-400 hover:bg-red-400 hover:text-black px-8 py-3 rounded-lg font-medium transform hover:scale-105 transition-all duration-300 code-text"
-              >
-                View My Work
               </Button>
             </motion.div>
           </motion.div>
@@ -101,13 +95,13 @@ export default function HeroSection() {
             className="flex justify-center lg:justify-end"
           >
             <div className="relative group">
-              <div className="absolute -inset-4 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+              <div className="absolute -inset-4 bg-gradient-to-r from-red-500/30 via-yellow-500/30 to-green-500/30 rounded-2xl blur opacity-50 group-hover:opacity-70 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
-                alt="Professional developer portrait"
-                className="relative rounded-2xl shadow-2xl w-full max-w-md lg:max-w-lg transform group-hover:scale-105 transition-all duration-500"
+                src={profileImage}
+                alt="Salman Hamzo - Professional Portrait"
+                className="relative rounded-2xl shadow-2xl w-full max-w-md lg:max-w-lg transform group-hover:scale-105 transition-all duration-500 border-4 border-red-500/40 terminal-glow"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent rounded-2xl group-hover:from-slate-900/40 transition-all duration-500"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-2xl group-hover:from-black/20 transition-all duration-500"></div>
             </div>
           </motion.div>
         </div>

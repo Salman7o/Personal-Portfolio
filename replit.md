@@ -165,7 +165,9 @@ Preferred communication style: Simple, everyday language.
 - Simplified services section design by removing over-designed elements
 - Removed projects section completely and updated navigation accordingly
 - Added professional cyberpunk-style profile image with glowing border effects
-- Restructured About section layout to feature profile image prominently
+- Moved profile image from About section to hero section on homepage
+- Removed "View My Work" button from hero section for cleaner design
+- Restored About section to 2-column layout without profile image
 
 ## Changelog
 
