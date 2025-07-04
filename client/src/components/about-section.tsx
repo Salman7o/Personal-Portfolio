@@ -68,7 +68,7 @@ export default function AboutSection() {
           >
             <h3 className="text-2xl font-semibold mb-6 portfolio-accent">About Me.</h3>
             <p className="portfolio-text-muted mb-6 leading-relaxed">
-              Hi, I am Salman Hamzo, a dynamic Junior Software Engineer in my third year of Computer Science 
+              Hi, I am Salman Hamzo, a dynamic Junior Software Engineer in my fourth year of Computer Science 
               at SZABIST University. I have completed a rigorous iOS Development internship, gaining hands-on 
               experience with cutting-edge tools and high-quality mobile applications. My solid foundation in 
               software engineering principles and various programming languages, coupled with strong problem-solving 
