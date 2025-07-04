@@ -56,12 +56,12 @@ export default function ServicesSection() {
               animate={isIntersecting ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className={`terminal-glow border-red-500/30 card-hover h-full ${service.bgColor} cyber-border bg-black/50 backdrop-blur-sm`}>
+              <Card className="portfolio-bg-alt border-slate-600 card-hover h-full bg-black/30 backdrop-blur-sm">
                 <CardContent className="p-6 text-center">
-                  <div className={`text-6xl mb-4 ${service.iconColor} glow-effect`}>
+                  <div className={`text-5xl mb-4 ${service.iconColor}`}>
                     {service.icon}
                   </div>
-                  <h4 className="text-lg font-semibold mb-2 portfolio-accent code-text">{service.title}</h4>
+                  <h4 className="text-lg font-semibold mb-2 portfolio-accent">{service.title}</h4>
                   <p className="portfolio-text-muted text-sm leading-relaxed">{service.description}</p>
                 </CardContent>
               </Card>

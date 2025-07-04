@@ -20,7 +20,6 @@ export default function Navigation() {
     { href: "#about", label: "About", icon: "👤" },
     { href: "#education", label: "Education", icon: "🎓" },
     { href: "#skills", label: "Skills", icon: "💻" },
-    { href: "#projects", label: "Projects", icon: "🚀" },
     { href: "#services", label: "Services", icon: "💼" },
     { href: "#contact", label: "Contact", icon: "📧" },
   ];

@@ -23,9 +23,9 @@ export default function AboutSection() {
     { label: "Email", value: "salmanhamza2580@gmail.com" },
     { label: "Experience", value: "Junior Level" },
     { label: "Status", value: "Available" },
-    { label: "LinkedIn", value: "Available" },
+    { label: "LinkedIn", value: "linkedin.com/in/salman-h-32101b216", link: "https://www.linkedin.com/in/salman-h-32101b216" },
     { label: "Languages", value: "English, Urdu, Sindhi" },
-  ];
+  ] as Array<{ label: string; value: string; link?: string }>;
 
   return (
     <section id="about" className="py-20 portfolio-bg-alt">
@@ -86,7 +86,18 @@ export default function AboutSection() {
                   className="flex justify-between"
                 >
                   <span className="font-semibold portfolio-accent">{info.label}:</span>
-                  <span className="portfolio-text">{info.value}</span>
+                  {info.link ? (
+                    <a 
+                      href={info.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="portfolio-text hover:portfolio-accent transition-colors duration-200 underline"
+                    >
+                      {info.value}
+                    </a>
+                  ) : (
+                    <span className="portfolio-text">{info.value}</span>
+                  )}
                 </motion.div>
               ))}
             </div>

@@ -161,6 +161,9 @@ Preferred communication style: Simple, everyday language.
 - Updated LinkedIn link to https://www.linkedin.com/in/salman-h-32101b216
 - Removed copied content and created original service descriptions
 - Applied consistent code-text styling and terminal aesthetic throughout
+- Added clickable LinkedIn link in About section personal information
+- Simplified services section design by removing over-designed elements
+- Removed projects section completely and updated navigation accordingly
 
 ## Changelog
 
