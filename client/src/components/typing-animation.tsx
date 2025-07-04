@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 
 export default function TypingAnimation() {
   const texts = [
-    "Frontend Developer",
-    "Backend Developer", 
+    "iOS Developer",
+    "Junior Software Engineer", 
     "Full Stack Developer",
-    "Web Developer",
-    "React Developer"
+    "Mobile App Developer",
+    "React.js Developer",
+    "Problem Solver"
   ];
 
   const [currentTextIndex, setCurrentTextIndex] = useState(0);

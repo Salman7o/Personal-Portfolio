@@ -20,6 +20,7 @@ export default function Navigation() {
     { href: "#about", label: "About", icon: "👤" },
     { href: "#education", label: "Education", icon: "🎓" },
     { href: "#skills", label: "Skills", icon: "💻" },
+    { href: "#projects", label: "Projects", icon: "🚀" },
     { href: "#services", label: "Services", icon: "💼" },
     { href: "#contact", label: "Contact", icon: "📧" },
   ];
@@ -39,7 +40,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold portfolio-accent">Shahzaib Faisal</h1>
+            <h1 className="text-xl font-bold portfolio-accent">Salman Hamzo</h1>
           </div>
           
           {/* Desktop Navigation */}

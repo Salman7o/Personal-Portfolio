@@ -1,8 +1,8 @@
-# Portfolio Website - replit.md
+# Salman Hamzo Portfolio Website - replit.md
 
 ## Overview
 
-This is a full-stack portfolio website built with React and Express.js, featuring a modern, responsive design with dark theme styling. The application showcases a developer's profile with sections for About, Education, Skills, Services, and Contact. It includes a functional contact form with backend API integration and database storage capabilities.
+This is a professional full-stack portfolio website built with React and Express.js, showcasing Salman Hamzo's skills as a Junior Software Engineer. The website features a modern, responsive design with dark theme styling, smooth animations, and interactive elements. The application includes sections for About, Education, Skills, Projects, Services, and Contact, with a functional contact form integrated with backend API and database storage capabilities.
 
 ## System Architecture
 
@@ -27,13 +27,14 @@ This is a full-stack portfolio website built with React and Express.js, featurin
 ## Key Components
 
 ### Frontend Components
-- **Navigation**: Responsive navigation with smooth scrolling
-- **Hero Section**: Landing area with animated typing effect
-- **About Section**: Personal information and toolbox showcase
-- **Education Section**: Timeline of educational background and experience
-- **Skills Section**: Animated skill bars with progress indicators
-- **Services Section**: Service offerings with image cards
-- **Contact Section**: Functional contact form with validation
+- **Navigation**: Responsive navigation with smooth scrolling and hover effects
+- **Hero Section**: Landing area with animated typing effect, floating particles, and gradient backgrounds
+- **About Section**: Personal information and technology toolbox with hover animations
+- **Education Section**: Timeline of educational background and professional experience
+- **Skills Section**: Animated skill bars with progress indicators and glow effects
+- **Projects Section**: Featured projects showcase with gradient overlays and interactive cards
+- **Services Section**: Service offerings with professional images and hover effects
+- **Contact Section**: Functional contact form with validation and smooth animations
 - **Footer**: Site footer with copyright information
 
 ### Backend Components
@@ -104,7 +105,48 @@ This is a full-stack portfolio website built with React and Express.js, featurin
 
 Preferred communication style: Simple, everyday language.
 
+## Portfolio Content
+
+### Personal Information
+- **Name**: Salman Hamzo
+- **Title**: Junior Software Engineer  
+- **Education**: Bachelor of Science in Computer Science (SZABIST University, 2022-2026)
+- **Location**: Karachi, Pakistan
+- **Contact**: salmanhamza2580@gmail.com, +923333656164
+- **Languages**: English, Urdu, Sindhi
+
+### Technical Skills
+- **Mobile Development**: Swift, SwiftUI, iOS Development
+- **Web Development**: React.js, JavaScript, HTML & CSS
+- **Programming Languages**: Java, Python, C Language
+- **Specializations**: Problem Solving, Software Engineering, Full Stack Development
+
+### Featured Projects
+1. **StudyMate Peer Learning Platform** - React.js startup project for peer tutoring
+2. **Library Management System** - Java application with MySQL database
+3. **Eater and Passer Game** - C language console game
+4. **Number Guessing Game** - Java-based educational project
+
+### Professional Experience
+- **iOS Developer Intern** at Analog Mutations (July-October 2023)
+- **Competition Participant** at ZAB E Fest - SZABIST (2024-2025)
+- **Co-founder** of StudyMate platform
+
+## Recent Changes
+
+### July 04, 2025 - Portfolio Customization for Salman Hamzo
+- Updated all personal information from Shahzaib Faisal to Salman Hamzo
+- Modified hero section with new professional description and contact details
+- Updated About section with Salman's background and technology stack
+- Redesigned Education section to reflect SZABIST University and DHACSS SKBZ Campus
+- Customized Skills section to highlight iOS development and relevant technologies
+- Added new Projects section showcasing StudyMate, Library Management System, and games
+- Updated Services section to focus on iOS development and software engineering
+- Enhanced Contact section with correct email and phone number
+- Added advanced CSS animations including floating particles, gradient effects, hover animations
+- Implemented glow effects, custom scrollbar, and enhanced card interactions
+- Added professional color schemes and improved visual aesthetics
+
 ## Changelog
 
-Changelog:
-- July 04, 2025. Initial setup
+- July 04, 2025: Initial setup and complete customization for Salman Hamzo portfolio

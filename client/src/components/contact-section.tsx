@@ -65,12 +65,12 @@ export default function ContactSection() {
     {
       icon: <Mail className="text-white text-xl" />,
       title: "EMAIL",
-      value: "shahzaibfaisal44@gmail.com",
+      value: "salmanhamza2580@gmail.com",
     },
     {
       icon: <Phone className="text-white text-xl" />,
       title: "PHONE",
-      value: "(+92)3323482085",
+      value: "+923333656164",
     },
   ];
 

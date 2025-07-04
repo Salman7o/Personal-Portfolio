@@ -7,28 +7,28 @@ export default function ServicesSection() {
 
   const services = [
     {
-      title: "UI/UX Design",
-      description: "I specialize in creating intuitive and visually engaging designs to ensure an optimal user experience across all platforms.",
-      image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "UI/UX design mockups and wireframes"
+      title: "iOS App Development",
+      description: "I specialize in creating native iOS applications using Swift and SwiftUI, focusing on performance, user experience, and modern design patterns.",
+      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
+      alt: "iOS app development on iPhone"
     },
     {
-      title: "UX Research",
-      description: "My UX research methods help in understanding the user behavior and ensuring designs are tailored to their needs.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "UX research process and user analysis"
-    },
-    {
-      title: "Web Development",
-      description: "I develop responsive, fast, and scalable web applications using the latest technologies such as React, Node.js, and Python.",
+      title: "Full Stack Development",
+      description: "I develop complete web applications using modern technologies like React.js, JavaScript, and backend integration with focus on scalability.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "Programming code on computer screen"
+      alt: "Full stack web development"
     },
     {
-      title: "AI Solutions",
-      description: "I provide AI-driven solutions, including machine learning models, data analytics, and automation to help businesses make data-driven decisions.",
-      image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "AI and machine learning data visualization"
+      title: "Software Engineering",
+      description: "I provide comprehensive software engineering solutions including system design, code optimization, and implementing best practices for maintainable applications.",
+      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
+      alt: "Software engineering and coding"
+    },
+    {
+      title: "Problem Solving & Innovation",
+      description: "I excel at analyzing complex problems, developing innovative solutions, and implementing efficient algorithms to solve real-world challenges.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
+      alt: "Problem solving and innovation"
     }
   ];
 

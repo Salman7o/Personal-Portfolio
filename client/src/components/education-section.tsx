@@ -10,40 +10,34 @@ export default function EducationSection() {
       title: "Bachelor of Science in Computer Science",
       institution: "SZABIST University",
       period: "2022 - 2026",
-      description: "Currently pursuing a CS degree with a strong focus on web development, AI integration, and full-stack technologies. Gained hands-on experience through academic projects involving MERN stack, Python, and React Native."
+      description: "Currently pursuing a CS degree with strong focus on software engineering, mobile development, and AI integration. Gained hands-on experience through academic projects involving iOS development, Java, and full-stack technologies."
     },
     {
-      title: "Intermediate in Computer Science",
-      institution: "Commerce College",
-      period: "2020 - 2022",
-      description: "Built a solid foundation in mathematics and logic, which helped develop a structured and analytical mindset for programming and problem-solving."
-    },
-    {
-      title: "Matriculation (Science)",
-      institution: "Karachi Public School",
-      period: "2018 - 2020",
-      description: "Completed matric with distinction in science subjects. Developed early interest in computing, leading to exploration of HTML, CSS, and basic JavaScript."
+      title: "Intermediate in General Science",
+      institution: "DHACSS SKBZ Campus",
+      period: "2019 - 2021",
+      description: "Built a solid foundation in mathematics and science subjects, which helped develop a structured and analytical mindset for programming and problem-solving."
     }
   ];
 
   const experienceData = [
     {
-      title: "Frontend Developer Intern",
-      company: "Freelance",
-      period: "Remote — 2024",
-      description: "Developed multiple responsive websites using React and plain CSS. Gained experience in reusable component structures and integrating REST APIs."
+      title: "iOS Developer Intern",
+      company: "Analog Mutations",
+      period: "July 2023 - October 2023",
+      description: "Applied modern design patterns to ensure high performance and scalability. Designed and implemented multiple iOS applications using Swift and Objective-C. Utilized Xcode and Interface Builder to create user interfaces. Developed and maintained unit tests for iOS applications."
     },
     {
-      title: "AI Project — HealthWise",
-      company: "ZAB-E-FEST Project",
-      period: "2025",
-      description: "Designed a real-world health prediction app using AI algorithms like k-NN and Decision Tree. Built with Flask, React, and chart visualizations to present meaningful health stats."
+      title: "Co-founder - StudyMate Platform",
+      company: "Startup Project",
+      period: "2024 - Present",
+      description: "Co-founded StudyMate, Pakistan's first open-access peer tutoring platform built by students, for students. Developed a working prototype using React.js, designed the revenue model, and led the startup pitch at SZABIST's ZAB E Fest 2025."
     },
     {
-      title: "Portfolio Website Developer",
-      company: "Personal Project",
-      period: "2025",
-      description: "Built a modern, single-page React portfolio showcasing skills, projects, and contact info. Implemented animations, sliders, and keyboard typing effects."
+      title: "Competition Participant & Finalist",
+      company: "ZAB E Fest - SZABIST Karachi",
+      period: "2024 - 2025",
+      description: "Qualified and participated in multiple competitions including UI/UX Design Competition (2024 & 2025), Startup Blueprint with StudyMate platform, and AI Competition with innovative AI-based concept."
     }
   ];
 

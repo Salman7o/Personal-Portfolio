@@ -6,25 +6,25 @@ export default function AboutSection() {
   const { ref, isIntersecting } = useIntersectionObserver();
 
   const toolboxItems = [
+    { name: "Swift", icon: "🍎", color: "text-orange-400" },
+    { name: "SwiftUI", icon: "📱", color: "text-blue-400" },
     { name: "React.js", icon: "⚛️", color: "text-blue-400" },
     { name: "JavaScript", icon: "🟨", color: "text-yellow-400" },
-    { name: "Mongo DB", icon: "🍃", color: "text-green-400" },
-    { name: "Express", icon: "🚀", color: "text-purple-400" },
-    { name: "Git", icon: "🔧", color: "text-orange-400" },
-    { name: "React-Native", icon: "📱", color: "text-blue-300" },
-    { name: "HTML", icon: "🌐", color: "text-red-400" },
-    { name: "CSS", icon: "🎨", color: "text-blue-500" },
+    { name: "Java", icon: "☕", color: "text-red-400" },
+    { name: "Python", icon: "🐍", color: "text-green-400" },
+    { name: "HTML & CSS", icon: "🌐", color: "text-purple-400" },
+    { name: "C Language", icon: "🔧", color: "text-blue-500" },
   ];
 
   const personalInfo = [
-    { label: "Name", value: "Shahzaib Faisal" },
-    { label: "Nationality", value: "Pakistani" },
-    { label: "Phone", value: "03323482085" },
-    { label: "Email", value: "shahzaibfaisal44@gmail.com" },
-    { label: "Experience", value: "+2 Years" },
-    { label: "Freelance", value: "Available" },
-    { label: "LinkedIn", value: "shahzaib-faisal-o" },
-    { label: "Language", value: "English/Urdu" },
+    { label: "Name", value: "Salman Hamzo" },
+    { label: "Location", value: "Karachi, Pakistan" },
+    { label: "Phone", value: "+923333656164" },
+    { label: "Email", value: "salmanhamza2580@gmail.com" },
+    { label: "Experience", value: "Junior Level" },
+    { label: "Status", value: "Available" },
+    { label: "LinkedIn", value: "Available" },
+    { label: "Languages", value: "English, Urdu, Sindhi" },
   ];
 
   return (
@@ -68,10 +68,12 @@ export default function AboutSection() {
           >
             <h3 className="text-2xl font-semibold mb-6 portfolio-accent">About Me.</h3>
             <p className="portfolio-text-muted mb-6 leading-relaxed">
-              Hi i am Shahzaib Faisal and I began using HTML & CSS when first began. I've spent most of my 
-              waking hours for the last four years designing, programming and operating React.js sites go beyond 
-              with exclusive designer. Apart from this I love to travel, mentor designers, review design portfolios 
-              & read books on everything related to design.
+              Hi, I am Salman Hamzo, a dynamic Junior Software Engineer in my third year of Computer Science 
+              at SZABIST University. I have completed a rigorous iOS Development internship, gaining hands-on 
+              experience with cutting-edge tools and high-quality mobile applications. My solid foundation in 
+              software engineering principles and various programming languages, coupled with strong problem-solving 
+              skills, prepares me well for the tech industry. I am passionate about technology, innovation, and 
+              committed to applying my skills while collaborating with professionals.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">

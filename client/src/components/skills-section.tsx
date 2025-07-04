@@ -6,14 +6,14 @@ export default function SkillsSection() {
   const { ref, isIntersecting } = useIntersectionObserver();
 
   const skills = [
-    { name: "HTML", percentage: 90, color: "bg-red-400", icon: "🌐" },
-    { name: "CSS", percentage: 90, color: "bg-blue-400", icon: "🎨" },
-    { name: "React", percentage: 89, color: "bg-blue-300", icon: "⚛️" },
-    { name: "JavaScript", percentage: 80, color: "bg-yellow-400", icon: "🟨" },
-    { name: "Mongo DB", percentage: 70, color: "bg-green-400", icon: "🍃" },
-    { name: "Express", percentage: 74, color: "bg-purple-400", icon: "🚀" },
-    { name: "Visual Studio Code", percentage: 88, color: "bg-blue-500", icon: "💻" },
-    { name: "Python", percentage: 43, color: "bg-yellow-300", icon: "🐍" },
+    { name: "Swift & SwiftUI", percentage: 85, color: "bg-orange-400", icon: "🍎" },
+    { name: "React.js", percentage: 80, color: "bg-blue-400", icon: "⚛️" },
+    { name: "Java", percentage: 75, color: "bg-red-400", icon: "☕" },
+    { name: "JavaScript", percentage: 78, color: "bg-yellow-400", icon: "🟨" },
+    { name: "Python", percentage: 70, color: "bg-green-400", icon: "🐍" },
+    { name: "HTML & CSS", percentage: 82, color: "bg-blue-500", icon: "🌐" },
+    { name: "C Language", percentage: 65, color: "bg-purple-400", icon: "🔧" },
+    { name: "Problem Solving", percentage: 85, color: "bg-cyan-400", icon: "🧠" },
   ];
 
   return (
