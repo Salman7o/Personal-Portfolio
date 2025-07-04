@@ -12,7 +12,7 @@ import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 import { apiRequest } from "@/lib/queryClient";
 import { insertContactSchema } from "@shared/schema";
 import { z } from "zod";
-import { Mail, Phone, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, Phone, Linkedin, Github } from "lucide-react";
 
 const contactFormSchema = insertContactSchema.extend({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -76,8 +76,7 @@ export default function ContactSection() {
 
   const socialLinks = [
     { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/in/salman-h-32101b216", label: "LinkedIn" },
-    { icon: <Github size={20} />, href: "https://github.com/salmanhamzo", label: "GitHub" },
-    { icon: <Twitter size={20} />, href: "https://twitter.com/salmanhamzo", label: "Twitter" },
+    { icon: <Github size={20} />, href: "https://github.com/Salman7o", label: "GitHub" },
   ];
 
   return (
