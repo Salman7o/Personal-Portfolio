@@ -1,8 +1,6 @@
 // client/src/lib/queryClient.ts
-
 import { QueryClient, QueryFunction } from "@tanstack/react-query";
 
-// Helper to throw on non-2xx responses
 async function throwIfResNotOk(res: Response) {
   if (!res.ok) {
     const text = (await res.text()) || res.statusText;
@@ -10,11 +8,10 @@ async function throwIfResNotOk(res: Response) {
   }
 }
 
-// Generic API request wrapper
 export async function apiRequest(
   method: string,
   url: string,
-  data?: unknown,
+  data?: unknown
 ): Promise<Response> {
   const res = await fetch(url, {
     method,
@@ -27,7 +24,6 @@ export async function apiRequest(
   return res;
 }
 
-// React Query fetch function with 401 handling
 type UnauthorizedBehavior = "returnNull" | "throw";
 export const getQueryFn: <T>(options: {
   on401: UnauthorizedBehavior;
@@ -46,7 +42,6 @@ export const getQueryFn: <T>(options: {
     return await res.json();
   };
 
-// Main QueryClient setup
 export const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
