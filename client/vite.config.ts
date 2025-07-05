@@ -5,21 +5,24 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Build plugin list
 const plugins = [react()];
 
-// Optional dev-only plugins (Replit)
+// Only load Replit plugins if available
 if (process.env.NODE_ENV !== "production") {
   try {
     const runtimeErrorOverlay = require("@replit/vite-plugin-runtime-error-modal");
     plugins.push(runtimeErrorOverlay());
+  } catch (e) {
+    console.warn("Skipping Replit runtime error overlay plugin:", e.message);
+  }
 
+  try {
     if (process.env.REPL_ID !== undefined) {
       const cartographer = require("@replit/vite-plugin-cartographer");
       plugins.push(cartographer.cartographer());
     }
-  } catch (err) {
-    console.warn("Optional Replit plugins not loaded:", err.message);
+  } catch (e) {
+    console.warn("Skipping Replit cartographer plugin:", e.message);
   }
 }
 
@@ -32,6 +35,7 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "../attached_assets"),
     },
   },
+  root: path.resolve(__dirname),
   build: {
     outDir: path.resolve(__dirname, "../dist/public"),
     emptyOutDir: true,
